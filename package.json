@@ -18,7 +18,11 @@
   "homepage": "https://github.com/Frannycesca/wedding-website#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-router": "^5.1.2",
-    "webpack": "^4.42.1"
+    "react-router": "^5.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
