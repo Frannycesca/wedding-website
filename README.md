@@ -13,3 +13,8 @@ A wedding website for Ben and Francesca's wedding.
     - ```git config --global user.name "name here"```
  7) install node modules with the command ```npm install```
  8) Open folder in VSC (or IDE/editor of choice)
+## Technologies used for website
+- React (Front End Framework)
+- React Router (navigation
+- [Material-UI](https://material-ui.com/getting-started/installation/) (React UI components)
+- [Webpack](https://webpack.js.org) (build and bundle components)
