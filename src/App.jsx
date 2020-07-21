@@ -59,12 +59,6 @@
 
 import React from 'react';
  
-// const App = ({ title }) =>
-//   <div>{title}
-//   <p>Hello World!
-    
-//   </p>
-//   </div>;
 class App extends React.Component {
   render () {
     return <p> Hello, World!</p>;
