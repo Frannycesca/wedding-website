@@ -58,10 +58,25 @@
 // //   );
 
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
+import Header from './Navbar.jsx';
+import Container from '@material-ui/core/Container';
+import CssBaseline from '@material-ui/core/CssBaseline';
  
 class App extends React.Component {
   render () {
-    return <p> Hello, World!</p>;
+    let sections = ["A","B","C","D"]
+    return (
+      <div>
+        <CssBaseline />
+      <Container maxWidth="lg">
+        <p align="center"> Francesca and Ben's Wedding</p>
+        <Header>
+          </Header>
+      </Container>
+      </div>
+    );
   }
 }
 export default App;
