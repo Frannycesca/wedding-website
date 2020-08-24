@@ -4,6 +4,7 @@ import { Tabs, Tab, Button, Toolbar, IconButton, Typography, makeStyles, withSty
 import { TabPanel, TabContext } from '@material-ui/lab';
 import SearchIcon from '@material-ui/icons/Search';
 import Hotel from './Hotel.jsx';
+import Info from './wedding_info.jsx'
 import { Document, Page, View, StyleSheet } from 'react-pdf';
 //import { Linking, Text, StyleSheet } from 'react-native';
 
@@ -159,16 +160,18 @@ export default function Header() {
           <TabPanel value="1" className={classes.insidetab}>
             <p>Hello and welcome! This is where you can find all sorts of information regarding our wedding.</p>
             <a href="https://forms.gle/f9Wq7AqMMFimqwAj7">RSVP now!</a>
-            <p>[[PUT BIO HERE]]</p>
+            <p>We met each other Freshman year of college in the Hall Hall dorm lounge at Rensselaer Polytechnic and shared many hours working on data structures programming assignments. In 2014 we were in the same D&D group.</p>
+            <p>After graduating college, we kept in contact (and after much pestering from our mutal friend Vrin) we told each other how we felt at the 2018 Anime Boston convention, and started dating. </p>
+            <p>In 2019 we moved into the same apartment in Plano Texas, and on April 13th 2020 Ben proposed.</p>
           </TabPanel>
           <TabPanel value="2" className={classes.insidetab}>
-            <p>Tab 2</p>
+            <Info/>
           </TabPanel>
           <TabPanel value="3" className={classes.insidetab}>
             <Hotel/>
           </TabPanel>
           <TabPanel value="4" className={classes.insidetab}>
-            <p>Tab 4</p>
+            <p>This tab isn't ready yet!</p>
           </TabPanel>
           <TabPanel value="5" className={classes.insidetab}>
             <a href="https://smile.amazon.com/wedding/francesca-huber-benjamin-johnson-manakin-sabot-december-2020/registry/62Z9G1V1XCVG">Amazon gift registry</a>
