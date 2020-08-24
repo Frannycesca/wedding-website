@@ -171,7 +171,13 @@ export default function Header() {
             <Hotel/>
           </TabPanel>
           <TabPanel value="4" className={classes.insidetab}>
-            <p>This tab isn't ready yet!</p>
+            <p>Here are some interesting places to visit in the Richmond area:</p>
+            <p><a href= "https://www.nps.gov/rich/index.htm">Richmond National Battlefield Park (U.S. National Park Service)</a></p>
+            <p><a href= "https://www.vmfa.museum">Virginia Museum of Fine Arts</a></p>
+            <p><a href= "https://keystonetractorworks.com/gallery2/">Antique Tractor gallery</a></p>
+            <p><a href= "https://www.nps.gov/mawa/index.htm">Maggie L Walker National Historic Site (U.S. National Park Service)</a></p>
+            <p><a href= "https://www.shortpumptowncenter.com/en.html">Shopping Mall in Richmond, VA | Short Pump Town Center</a></p>
+            <p>If you have suggestions for more places around Richmond, please let us know at: johnsb234@gmail.com</p>
           </TabPanel>
           <TabPanel value="5" className={classes.insidetab}>
             <a href="https://smile.amazon.com/wedding/francesca-huber-benjamin-johnson-manakin-sabot-december-2020/registry/62Z9G1V1XCVG">Amazon gift registry</a>
