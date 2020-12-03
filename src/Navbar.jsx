@@ -1,21 +1,14 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import { Tabs, Tab, Button, Toolbar, IconButton, Typography, makeStyles, withStyles, Link, AppBar, Box, Paper } from '@material-ui/core';
-<<<<<<< HEAD
 // import { TabPanel, TabContext } from '@material-ui/lab';
 import SearchIcon from '@material-ui/icons/Search';
 import Hotel from './Hotel.jsx';
 import Info from './wedding_info.jsx'
-=======
-import { TabPanel, TabContext } from '@material-ui/lab';
-import SearchIcon from '@material-ui/icons/Search';
-import Hotel from './Hotel.jsx';
->>>>>>> 261e191a0451c805e894f48c925f42513f28efbf
 import { Document, Page, View, StyleSheet } from 'react-pdf';
 //import { Linking, Text, StyleSheet } from 'react-native';
 
 
-<<<<<<< HEAD
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -41,33 +34,6 @@ TabPanel.propTypes = {
   index: PropTypes.any.isRequired,
   value: PropTypes.any.isRequired,
 };
-=======
-// function TabPanel(props) {
-//   const { children, value, index, ...other } = props;
-
-//   return (
-//     <div
-//       role="tabpanel"
-//       hidden={value !== index}
-//       id={`simple-tabpanel-${index}`}
-//       aria-labelledby={`simple-tab-${index}`}
-//       {...other}
-//     >
-//       {value === index && (
-//         <Box p={3}>
-//           <Typography>{children}</Typography>
-//         </Box>
-//       )}
-//     </div>
-//   );
-// }
-
-// TabPanel.propTypes = {
-//   children: PropTypes.node,
-//   index: PropTypes.any.isRequired,
-//   value: PropTypes.any.isRequired,
-// };
->>>>>>> 261e191a0451c805e894f48c925f42513f28efbf
 
 function a11yProps(index) {
   return {
@@ -174,10 +140,6 @@ export default function Header() {
   const classes = useStyles();
   const classnavbarStyle = navbarStyle();
   const [value, setValue] = React.useState(0);
-<<<<<<< HEAD
-=======
-
->>>>>>> 261e191a0451c805e894f48c925f42513f28efbf
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -185,7 +147,6 @@ export default function Header() {
   return (
     <div className={classes.root}>
       <div className={classes.demo2}>
-<<<<<<< HEAD
        
           <StyledTabs value={value} onChange={handleChange} aria-label="styled tabs example">
             <StyledTab label="Announcements" index="0" />
@@ -227,35 +188,6 @@ export default function Header() {
             <p>Livestream link coming here before Dec 12th!</p>
           </TabPanel>
         
-=======
-        <TabContext value={value}>
-          <StyledTabs value={value} onChange={handleChange} aria-label="styled tabs example">
-            <StyledTab label="About us" value="1" />
-            <StyledTab label="About our wedding" value="2" />
-            <StyledTab label="Hotel" value="3" />
-            <StyledTab label="Cool things in Richmond" value="4" />
-            <StyledTab label="Gift Registry" value="5" />
-          </StyledTabs>
-          <Typography className={classes.padding} />
-          <TabPanel value="1" className={classes.insidetab}>
-            <p>Hello and welcome! This is where you can find all sorts of information regarding our wedding.</p>
-            <a href="https://forms.gle/f9Wq7AqMMFimqwAj7">RSVP now!</a>
-            <p>[[PUT BIO HERE]]</p>
-          </TabPanel>
-          <TabPanel value="2" className={classes.insidetab}>
-            <p>Tab 2</p>
-          </TabPanel>
-          <TabPanel value="3" className={classes.insidetab}>
-            <Hotel/>
-          </TabPanel>
-          <TabPanel value="4" className={classes.insidetab}>
-            <p>Tab 4</p>
-          </TabPanel>
-          <TabPanel value="5" className={classes.insidetab}>
-            <a href="https://smile.amazon.com/wedding/francesca-huber-benjamin-johnson-manakin-sabot-december-2020/registry/62Z9G1V1XCVG">Amazon gift registry</a>
-          </TabPanel>
-        </TabContext>
->>>>>>> 261e191a0451c805e894f48c925f42513f28efbf
       </div>
     </div>
   );
