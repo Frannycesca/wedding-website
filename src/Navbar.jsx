@@ -4,9 +4,10 @@ import { Tabs, Tab, Button, Toolbar, IconButton, Typography, makeStyles, withSty
 // import { TabPanel, TabContext } from '@material-ui/lab';
 import SearchIcon from '@material-ui/icons/Search';
 import Hotel from './Hotel.jsx';
-import Info from './wedding_info.jsx'
+import Info from './wedding_info.jsx';
 import { Document, Page, View, StyleSheet } from 'react-pdf';
 //import { Linking, Text, StyleSheet } from 'react-native';
+
 
 
 function TabPanel(props) {
@@ -185,7 +186,8 @@ export default function Header() {
             <a href="https://smile.amazon.com/wedding/francesca-huber-benjamin-johnson-manakin-sabot-december-2020/registry/62Z9G1V1XCVG">Amazon gift registry</a>
           </TabPanel>
           <TabPanel value={value} index={5} className={classes.insidetab}>
-            <p>Livestream link coming here before Dec 12th!</p>
+            <p><a href= "https://youtu.be/ODeDsVklAo0">Livestream here!</a></p>
+            <p>If the link does not work, or you have questions, please email johns234@gmail.com</p>
           </TabPanel>
         
       </div>

@@ -63,6 +63,7 @@ import Button from '@material-ui/core/Button';
 import Header from './Navbar.jsx';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Image from 'material-ui-image';
  
 class App extends React.Component {
   render () {
@@ -72,6 +73,10 @@ class App extends React.Component {
         <CssBaseline />
       <Container maxWidth="lg">
         <p align="center"> Francesca and Ben's Wedding</p>
+        <Image 
+              src="https://imgur.com/SUxIO9K.jpg"
+              aspectRatio="1.66"
+              />
         <Header>
           </Header>
       </Container>
