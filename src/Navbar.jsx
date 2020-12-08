@@ -160,7 +160,7 @@ export default function Header() {
           <Typography className={classes.padding} />
           <TabPanel value={value} index={0} className={classes.insidetab}>
             <p>Hello and welcome! This is where you can find all sorts of information regarding our wedding.</p>
-            <p>IMPORTANT ANNOUNCEMENT: In order to comply with Virginia state Covid restrictions, we are breaking the wedding reception into waves. On Dec 12th, from 1-2pm is wave 1, the Weeks family. From 2-2:30pm we will be conversing with those attending via the internet. 2:30-3:30pm is wave 2, the Huber family. 3:30-4pm is another break. 4-5pm will be the remaining friends and family. </p>
+            <p>IMPORTANT ANNOUNCEMENT: In order to comply with Virginia state Covid restrictions, we are breaking the wedding reception into two waves. From 1pm-2:45pm is the Weeks family and Ursel's relatives. 2:45-3:15 is a break period. From 3:15-5pm is the Huber Family and anyone else.</p>
             <p>If you have questions about what wave you are in, please email us at johnsb234@gmail.com</p>
             {/* <a href="https://forms.gle/f9Wq7AqMMFimqwAj7">RSVP now!</a> */}
             {/* <p>We met each other Freshman year of college in the Hall Hall dorm lounge at Rensselaer Polytechnic and shared many hours working on data structures programming assignments. In 2014 we were in the same D&D group.</p> */}
