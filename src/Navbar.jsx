@@ -188,6 +188,8 @@ export default function Header() {
           <TabPanel value={value} index={5} className={classes.insidetab}>
             <p><a href= "https://youtu.be/ODeDsVklAo0">Livestream here!</a></p>
             <p>If the link does not work, or you have questions, please email johns234@gmail.com</p>
+            <p>Zoom reception Time: Dec 12, 2020 02:00 PM Eastern Time (US and Canada)</p>
+<p><a href="https://us05web.zoom.us/j/83945258653?pwd=aWpib25WNDkxemV5cnpFU0hzNEhrQT09">Join Zoom Meeting</a></p>
           </TabPanel>
         
       </div>
