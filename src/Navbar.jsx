@@ -155,17 +155,12 @@ export default function Header() {
             <StyledTab label="Hotel"index="2" />
             <StyledTab label="Cool things in Richmond" index="3" />
             <StyledTab label="Gift Registry" index="4" />
-            <StyledTab label="Livestream" index="5" />            
+            <StyledTab label="Wedding Video" index="5" />            
           </StyledTabs>
           <Typography className={classes.padding} />
           <TabPanel value={value} index={0} className={classes.insidetab}>
             <p>Hello and welcome! This is where you can find all sorts of information regarding our wedding.</p>
-            <p>IMPORTANT ANNOUNCEMENT: In order to comply with Virginia state Covid restrictions, we are breaking the wedding reception into two waves. From 1pm-2:45pm is the Weeks family and Ursel's relatives. 2:45-3:15 is a break period. From 3:15-5pm is the Huber Family and anyone else.</p>
-            <p>If you have questions about what wave you are in, please email us at johnsb234@gmail.com</p>
-            {/* <a href="https://forms.gle/f9Wq7AqMMFimqwAj7">RSVP now!</a> */}
-            {/* <p>We met each other Freshman year of college in the Hall Hall dorm lounge at Rensselaer Polytechnic and shared many hours working on data structures programming assignments. In 2014 we were in the same D&D group.</p> */}
-            {/* <p>After graduating college, we kept in contact (and after much pestering from our mutal friend Vrin) we told each other how we felt at the 2018 Anime Boston convention, and started dating. </p> */}
-            {/* <p>In 2019 we moved into the same apartment in Plano Texas, and on April 13th 2020 Ben proposed.</p> */}
+            <p>Thank you to everyone for attending, it was a wonderful wedding! Click the 'Wedding Video' tab if you want to watch the recording. </p>
           </TabPanel>
           <TabPanel value={value} index={1} className={classes.insidetab}>
             <Info/>
@@ -186,10 +181,8 @@ export default function Header() {
             <a href="https://smile.amazon.com/wedding/francesca-huber-benjamin-johnson-manakin-sabot-december-2020/registry/62Z9G1V1XCVG">Amazon gift registry</a>
           </TabPanel>
           <TabPanel value={value} index={5} className={classes.insidetab}>
-            <p><a href= "https://youtu.be/ODeDsVklAo0">Livestream here!</a></p>
+            <p><a href= "https://youtu.be/zv2sC7a0VIQ">Click here to view the video</a></p>
             <p>If the link does not work, or you have questions, please email johns234@gmail.com</p>
-            <p>Zoom reception Time: Dec 12, 2020 02:00 PM Eastern Time (US and Canada)</p>
-<p><a href="https://us05web.zoom.us/j/83945258653?pwd=aWpib25WNDkxemV5cnpFU0hzNEhrQT09">Join Zoom Meeting</a></p>
           </TabPanel>
         
       </div>
